@@ -1,0 +1,22 @@
+h1, p, div {
+    text-align: center;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(85, 77, 77);
+}
+
+.fa:hover {
+    background-color: rgb(246, 86, 86);
+}
+
+.container { 
+    display:flex;
+    margin-inline: 625px;
+    gap: 10px
+}
+
+.foo {
+    text-decoration: underline;
+}
