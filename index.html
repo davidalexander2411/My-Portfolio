@@ -3,28 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Portfolio</title>
     <link rel=stylesheet href="index.css">
+    <link href="./output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Faculty+Glyphic&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alice&family=Dosis:wght@200..800&display=swap" rel="stylesheet">
 </head>
-<title>My portfolio</title>
-<body>
-    <h1>
-        My portfolio
-    </h1>
-    <div class="container">
-        <p>
-            David Alexander
-        </p>
-        <p class="foo">
-            Computer Engineering
-        </p>
-    </div>
-    <div class="fa">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbenGFnJYutrNs4Pvs_4DwyaEta3k3y4IHqw&s" width="300px">
-    </div>
-    <div>
 
+<body>
+    <div id="nav" class="flex justify-between items-center w-full h-25 border-b-2">
+        <div id="logo" class="flex items-center">
+            <img src="fontsample.PNG" id="david">
+            <img src="fontsample (1).PNG" id="A" class="">
+        </div>
+        <div id="refs" class="">
+            <a href="#abouts" class="ref dosis-thin">About</a>
+            <a href="#education" class="ref dosis-thin">Education</a>
+            <a href="#socials" class="ref dosis-thin">Socials</a>
+        </div>
     </div>
-  
+    <div id="main" class="flex flex-col justify-center w-full h-full items-center">
+        <div id="intro" class="flex flex-col">
+            <p class="text-6xl faculty-glyphic-regular">David Alexander</p>
+            <p class="text-4xl faculty-glyphic-regular">Computer Engineering Student</p>
+            <img src="image-removebg-preview (26).PNG" alt="Me" id="pasfoto" class="py-2 w-40">
+            <p id="abouts">p</p>
+        </div>
+        <div id="about" class="flex flex-col">
+            <p class="text-4xl faculty-glyphic-regular">About Me</p>
+            <p class="isi">
+                I'm a computer engineering student at the University of Indonesia with a passion for software development.
+                Learning new concepts and tackling challenging projects drive my enthusiasm. I’m committed to building my skills across different areas of software engineering. 
+                I believe that collaboration and knowledge-sharing are key to growth.
+                Let's connect, learn, and work together on impactful projects.
+            </p>
+        </div>
+        <div id="education" class="flex flex-col bg-white rounded-2xl p-8">
+            <p class="text-4xl faculty-glyphic-regular">Education</p>
+            
+            <div class="education-item mt-4 flex items-center">
+                <img src="logo-UI.png" alt="University Logo" class="logo w-20 h-12 mr-4">
+                <div>
+                    <p class="text-xl font-bold">University of Indonesia</p>
+                    <p class="text-gray-600">2024 - present</p>
+                    <p class="text-gray-800">Computer Engineering</p>
+                </div>
+            </div>
+        
+            <div class="education-item mt-4 flex items-center">
+                <img src="613-SMA_TUNAS_BANGSA.png" alt="School Logo" class=" logo w-20 h-12 mr-4">
+                <div>
+                    <p class="text-xl font-bold">SMA Tunas Bangsa</p>
+                    <p class="text-gray-600">2021 - 2024</p>
+                    <p class="text-gray-800">Science</p>
+                </div>
+            </div>
+        </div>
+        <div id="socials" class="flex flex-col items-center">
+            <div>
+                <p class="heads faculty-glyphic-regular text-4xl">Social Media</p>
+            </div>
+            <div class="flex flex-row gap-2 items-center p-4">
+             <a href="https://youtube.com"><img src="social-06-512.png" class="w-20 hover:scale-110"></a>
+             <a href="https://www.instagram.com/david.alexander24/"><img src="Instagram_icon.png (1).png" class="w-16 hover:scale-110"></a>
+             <a href="https://www.linkedin.com/in/david-alexander-3a3601325/"><img src="LinkedIn_logo_initials.png" class="w-16 hover:scale-110"></a>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
