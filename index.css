@@ -2,6 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@keyframes slideUp {
+  0% {
+      transform: translateY(20px);
+      opacity: 0;
+  }
+  100% {
+      transform: translateY(0);
+      opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: slideUp 1.5s ease forwards;
+}
+
+.fade-in {
+  opacity: 0; 
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -53,7 +73,7 @@ html {
 }
 
 #pasfoto {
-  padding-top: 40px;
+  padding-top: 60px;
   margin-left: 175px;
 }
 
@@ -62,7 +82,7 @@ html {
 }
 
 #about {
-  margin-top: 100px;
+  margin-top: 80px;
   color: rgb(33, 32, 32);
   width: 750px;
   background-color: rgb(227, 227, 227);
